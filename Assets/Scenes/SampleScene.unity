@@ -16788,6 +16788,7 @@ GameObject:
   - component: {fileID: 1541267931}
   - component: {fileID: 1541267934}
   - component: {fileID: 1541267935}
+  - component: {fileID: 1541267936}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -17009,6 +17010,21 @@ MonoBehaviour:
   mouseSensitivity: 1
   manualAngle: 0
   showDebugRays: 1
+--- !u!114 &1541267936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1541267927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ca4b6091ae084044adf04c086740260, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RangeAttack
+  projectilePrefab: {fileID: 9043069739617278641, guid: 4639c753665956641815be24392bd090, type: 3}
+  speed: 5
+  damage: 20
 --- !u!1 &1544287162
 GameObject:
   m_ObjectHideFlags: 0
