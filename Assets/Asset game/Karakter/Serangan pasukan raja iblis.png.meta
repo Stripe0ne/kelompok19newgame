@@ -1,0 +1,780 @@
+fileFormatVersion: 2
+guid: b6dc136c9f7e6d84886084bfb3289951
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4297153137353443425
+    second: Serangan pasukan raja iblis_0
+  - first:
+      213: 3139501884849079057
+    second: Serangan pasukan raja iblis_1
+  - first:
+      213: 5095260525431298581
+    second: Serangan pasukan raja iblis_2
+  - first:
+      213: 7923708792511030181
+    second: Serangan pasukan raja iblis_3
+  - first:
+      213: 6287079576470210349
+    second: Serangan pasukan raja iblis_4
+  - first:
+      213: -3223218054752125359
+    second: Serangan pasukan raja iblis_5
+  - first:
+      213: -5743913790930547587
+    second: Serangan pasukan raja iblis_6
+  - first:
+      213: 5001318719435389655
+    second: Serangan pasukan raja iblis_7
+  - first:
+      213: -6345386885525824945
+    second: Serangan pasukan raja iblis_8
+  - first:
+      213: -3945195388426703437
+    second: Serangan pasukan raja iblis_9
+  - first:
+      213: 1818334133177212778
+    second: Serangan pasukan raja iblis_10
+  - first:
+      213: -5618454307933445938
+    second: Serangan pasukan raja iblis_11
+  - first:
+      213: 7657455371411205855
+    second: Serangan pasukan raja iblis_12
+  - first:
+      213: -7172938261644413063
+    second: Serangan pasukan raja iblis_13
+  - first:
+      213: -8749727019454519245
+    second: Serangan pasukan raja iblis_14
+  - first:
+      213: -4466828250343876077
+    second: Serangan pasukan raja iblis_15
+  - first:
+      213: -5879850776163966963
+    second: Serangan pasukan raja iblis_16
+  - first:
+      213: -3892998959344259862
+    second: Serangan pasukan raja iblis_17
+  - first:
+      213: -7233657711522115409
+    second: Serangan pasukan raja iblis_18
+  - first:
+      213: 5135993488280680332
+    second: Serangan pasukan raja iblis_19
+  - first:
+      213: -3769215406413491846
+    second: Serangan pasukan raja iblis_20
+  - first:
+      213: 649846055313391055
+    second: Serangan pasukan raja iblis_21
+  - first:
+      213: -3615152268622036545
+    second: Serangan pasukan raja iblis_22
+  - first:
+      213: 4631759968357630967
+    second: Serangan pasukan raja iblis_23
+  - first:
+      213: -1117952334892801384
+    second: Serangan pasukan raja iblis_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Serangan pasukan raja iblis_0
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 1414
+        width: 258
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f97b7962df17d54c0800000000000000
+      internalID: -4297153137353443425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Serangan pasukan raja iblis_1
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1536
+        width: 209
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 113491a9450c19b20800000000000000
+      internalID: 3139501884849079057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Serangan pasukan raja iblis_2
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 1619
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51a1768b37006b640800000000000000
+      internalID: 5095260525431298581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Serangan pasukan raja iblis_3
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 1544
+        width: 269
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a362494a2ba6fd60800000000000000
+      internalID: 7923708792511030181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Serangan pasukan raja iblis_4
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 1539
+        width: 233
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d27ce1e7091304750800000000000000
+      internalID: 6287079576470210349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Serangan pasukan raja iblis_5
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1528
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15ebfdca144d443d0800000000000000
+      internalID: -3223218054752125359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Serangan pasukan raja iblis_6
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 1407
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7c0e17f6d48940b0800000000000000
+      internalID: -5743913790930547587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Serangan pasukan raja iblis_7
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 1404
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7da357090e0486540800000000000000
+      internalID: 5001318719435389655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Serangan pasukan raja iblis_8
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 1400
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4a9fc53f38a0f7a0800000000000000
+      internalID: -6345386885525824945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Serangan pasukan raja iblis_9
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 1401
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bd215f52b9df39c0800000000000000
+      internalID: -3945195388426703437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Serangan pasukan raja iblis_10
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 1401
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6fdefa92450c3910800000000000000
+      internalID: 1818334133177212778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Serangan pasukan raja iblis_11
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 1400
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec02dd4239d3702b0800000000000000
+      internalID: -5618454307933445938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Serangan pasukan raja iblis_12
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 1404
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fde2f50e61fb44a60800000000000000
+      internalID: 7657455371411205855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Serangan pasukan raja iblis_13
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 1407
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97770e6a7aa947c90800000000000000
+      internalID: -7172938261644413063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Serangan pasukan raja iblis_14
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 1252
+        width: 252
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 338a6c342a9b29680800000000000000
+      internalID: -8749727019454519245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Serangan pasukan raja iblis_15
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 1262
+        width: 278
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31ad2916f53a202c0800000000000000
+      internalID: -4466828250343876077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Serangan pasukan raja iblis_16
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 1263
+        width: 259
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0021723fd2966ea0800000000000000
+      internalID: -5879850776163966963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Serangan pasukan raja iblis_17
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 1393
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aece15d821a49f9c0800000000000000
+      internalID: -3892998959344259862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Serangan pasukan raja iblis_18
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 1380
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa095fd03a2ec9b90800000000000000
+      internalID: -7233657711522115409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Serangan pasukan raja iblis_19
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 1357
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8770bdadd6b64740800000000000000
+      internalID: 5135993488280680332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Serangan pasukan raja iblis_20
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 1338
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a715bcade8e01bbc0800000000000000
+      internalID: -3769215406413491846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Serangan pasukan raja iblis_21
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 1239
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcdb4a55b87b40900800000000000000
+      internalID: 649846055313391055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Serangan pasukan raja iblis_22
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 1239
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb106d36a2664ddc0800000000000000
+      internalID: -3615152268622036545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Serangan pasukan raja iblis_23
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 1243
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f3c4dea621574040800000000000000
+      internalID: 4631759968357630967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Serangan pasukan raja iblis_24
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 1245
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89265ea464c3c70f0800000000000000
+      internalID: -1117952334892801384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Serangan pasukan raja iblis_0: -4297153137353443425
+      Serangan pasukan raja iblis_1: 3139501884849079057
+      Serangan pasukan raja iblis_10: 1818334133177212778
+      Serangan pasukan raja iblis_11: -5618454307933445938
+      Serangan pasukan raja iblis_12: 7657455371411205855
+      Serangan pasukan raja iblis_13: -7172938261644413063
+      Serangan pasukan raja iblis_14: -8749727019454519245
+      Serangan pasukan raja iblis_15: -4466828250343876077
+      Serangan pasukan raja iblis_16: -5879850776163966963
+      Serangan pasukan raja iblis_17: -3892998959344259862
+      Serangan pasukan raja iblis_18: -7233657711522115409
+      Serangan pasukan raja iblis_19: 5135993488280680332
+      Serangan pasukan raja iblis_2: 5095260525431298581
+      Serangan pasukan raja iblis_20: -3769215406413491846
+      Serangan pasukan raja iblis_21: 649846055313391055
+      Serangan pasukan raja iblis_22: -3615152268622036545
+      Serangan pasukan raja iblis_23: 4631759968357630967
+      Serangan pasukan raja iblis_24: -1117952334892801384
+      Serangan pasukan raja iblis_3: 7923708792511030181
+      Serangan pasukan raja iblis_4: 6287079576470210349
+      Serangan pasukan raja iblis_5: -3223218054752125359
+      Serangan pasukan raja iblis_6: -5743913790930547587
+      Serangan pasukan raja iblis_7: 5001318719435389655
+      Serangan pasukan raja iblis_8: -6345386885525824945
+      Serangan pasukan raja iblis_9: -3945195388426703437
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

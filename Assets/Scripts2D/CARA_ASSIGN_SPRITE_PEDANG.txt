@@ -1,0 +1,242 @@
+╔═══════════════════════════════════════════════════════════════╗
+║                                                               ║
+║     🎨 CARA ASSIGN SPRITE PEDANG CUSTOM 🗡️                   ║
+║                                                               ║
+╚═══════════════════════════════════════════════════════════════╝
+
+
+✅ SCRIPT ForceSetupPedang.cs UDAH DI-UPDATE!
+═══════════════════════════════════════════════════════════════
+
+Sekarang bisa pake sprite custom kamu!
+
+
+📝 STEP-BY-STEP:
+═══════════════════════════════════════════════════════════════
+
+STEP 1: IMPORT SPRITE PEDANG
+────────────────────────────────────────────────────────────
+
+1. Punya file gambar pedang (.png, .jpg, dll)
+
+2. Di Unity, drag file gambar ke folder:
+   
+   Assets/Asset game/Alat/
+   
+   (atau folder mana aja di Assets)
+
+3. Tunggu Unity import
+
+
+STEP 2: SETUP SPRITE SETTINGS (PENTING!)
+────────────────────────────────────────────────────────────
+
+1. Klik sprite pedang di Project panel
+
+2. Di Inspector (kanan), check:
+   
+   ✅ Texture Type: Sprite (2D and UI)
+   ✅ Sprite Mode: Single
+   ✅ Pixels Per Unit: 100 (atau sesuaikan)
+   ✅ Pivot: Custom atau Center
+      
+      Recommended: Custom
+      - X: 0.2 (pivot di gagang/kiri)
+      - Y: 0.5 (tengah vertikal)
+
+3. Klik "Apply" di bawah
+
+
+STEP 3: ASSIGN KE ForceSetupPedang
+────────────────────────────────────────────────────────────
+
+1. Select GameObject "Player" di Hierarchy
+
+2. Di Inspector, cari component "Force Setup Pedang"
+
+3. Liat field "Custom Weapon Sprite"
+
+4. DRAG sprite pedang dari Project panel
+   → DROP ke field "Custom Weapon Sprite"
+
+5. Adjust settings (opsional):
+   
+   - Weapon Color: Putih (default, ga usah diubah)
+   - Weapon Offset: (0.7, 0) atau atur posisi
+   - Weapon Scale: 1.0 atau sesuaikan size
+
+
+STEP 4: KLIK FORCE CREATE!
+────────────────────────────────────────────────────────────
+
+Di Inspector, component ForceSetupPedang:
+
+1. Klik kanan component → "Force Create Weapon NOW!"
+   
+   ATAU
+   
+2. Stop game (kalau lagi play) → Play lagi
+
+3. Pedang otomatis dibuat dengan sprite kamu!
+
+
+STEP 5: TEST!
+────────────────────────────────────────────────────────────
+
+1. Play ▶ game
+
+2. Gerak pakai WASD
+
+3. Pedang dengan sprite kamu harusnya muncul dan ikut rotasi!
+
+
+═══════════════════════════════════════════════════════════════
+
+
+🎨 VISUAL GUIDE:
+═══════════════════════════════════════════════════════════════
+
+Unity Layout:
+┌────────────────────────────────────────────────────────────┐
+│  Project Panel (bawah)        │  Inspector (kanan)         │
+│  ┌──────────────────┐         │  ┌──────────────────────┐  │
+│  │Assets            │         │  │Player (GameObject)   │  │
+│  │└─Asset game      │         │  │                      │  │
+│  │  └─Alat          │         │  │Force Setup Pedang    │  │
+│  │    └─senjata.png │ ────┐   │  │                      │  │
+│  │       ↑          │     │   │  │Custom Weapon Sprite: │  │
+│  │       │          │     └──→│  │ [DROP DI SINI!]      │  │
+│  │  (Sprite kamu)   │         │  │                      │  │
+│  └──────────────────┘         │  │Weapon Offset: (0.7,0)│  │
+│                               │  │Weapon Scale: 1       │  │
+│                               │  └──────────────────────┘  │
+└────────────────────────────────────────────────────────────┘
+
+
+⚙️ CUSTOMIZE SETTINGS:
+═══════════════════════════════════════════════════════════════
+
+Di Inspector, Force Setup Pedang component:
+
+┌─────────────────────────────────────────────────────────┐
+│ ⚔️ FORCE SETUP PEDANG ⚔️                                │
+├─────────────────────────────────────────────────────────┤
+│ Custom Weapon Sprite:  [senjata.png]  ← Drag sprite    │
+│ Weapon Color:          (255,255,255)  ← Putih (default)│
+├─────────────────────────────────────────────────────────┤
+│ SETTINGS                                                │
+│ Setup On Awake:        ✓               ← Auto setup    │
+│ Weapon Offset:         (0.7, 0)        ← Posisi pedang │
+│ Weapon Scale:          1               ← Size pedang   │
+├─────────────────────────────────────────────────────────┤
+│ DEBUG                                                   │
+│ Show Debug Logs:       ✓               ← Log di console│
+└─────────────────────────────────────────────────────────┘
+
+
+📏 ADJUST POSITION & SIZE:
+═══════════════════════════════════════════════════════════════
+
+Weapon Offset:
+────────────────────────────────────────────────────────────
+Atur posisi pedang dari center player
+
+• (0.7, 0)   → Ke kanan player (default)
+• (0.5, 0.2) → Ke kanan-atas
+• (0.8, -0.1)→ Ke kanan-bawah
+• (1.0, 0)   → Lebih jauh ke kanan
+
+Weapon Scale:
+────────────────────────────────────────────────────────────
+Atur size pedang
+
+• 0.5  → Setengah size (kecil)
+• 1.0  → Normal size (default)
+• 1.5  → 1.5x lebih gede
+• 2.0  → 2x lebih gede
+
+
+🎯 SPRITE PEDANG TIPS:
+═══════════════════════════════════════════════════════════════
+
+✅ RECOMMENDED:
+
+• Format: PNG dengan background transparent
+• Orientation: Pedang facing KANAN →
+• Size: 64-128 pixels width, 16-32 pixels height
+• Pivot: Di gagang/pegangan (kiri)
+• Style: Pixel art atau vector clean
+
+Example layout:
+┌────────────────────────────────┐
+│ ██████ ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓│
+│ ██████ ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓│
+└────────────────────────────────┘
+  ↑                              ↑
+ Gagang                        Ujung
+ (Pivot)                      (Blade)
+
+
+❌ AVOID:
+
+• Pedang facing atas/bawah (susah rotasi)
+• Background putih (ga transparent)
+• Terlalu besar (>512px width)
+• Pivot di tengah (rotasi jadi aneh)
+
+
+🐛 TROUBLESHOOTING:
+═══════════════════════════════════════════════════════════════
+
+❓ "Sprite ga keliatan?"
+   → Check Sprite Renderer Color = putih (bukan hitam/transparent)
+   → Check Sorting Order = 10
+   → Check Camera view (zoom in)
+
+❓ "Sprite kebalik?"
+   → Edit sprite: Set Pivot ke (0.2, 0.5)
+   → Atau flip sprite di image editor
+
+❓ "Sprite terlalu kecil/gede?"
+   → Adjust Weapon Scale (0.5 - 2.0)
+   → Atau adjust Pixels Per Unit di sprite settings
+
+❓ "Rotasi ga pas?"
+   → Check Pivot point harus di gagang (kiri)
+   → Adjust Weapon Offset
+
+❓ "Field Custom Weapon Sprite ga ada?"
+   → Pastikan ForceSetupPedang.cs udah terbaru
+   → Reimport script (klik kanan → Reimport)
+
+
+✅ CHECKLIST:
+═══════════════════════════════════════════════════════════════
+
+□ Sprite pedang imported ke Unity
+□ Texture Type: Sprite (2D and UI)
+□ Pivot di gagang (kiri, 0.2-0.3)
+□ ForceSetupPedang.cs attached ke Player
+□ Sprite dragged ke "Custom Weapon Sprite" field
+□ Settings adjusted (offset, scale)
+□ Play game → Test!
+
+
+═══════════════════════════════════════════════════════════════
+
+🎮 SETELAH ASSIGN:
+
+Play game, sprite custom kamu bakal:
+✅ Muncul di tangan player
+✅ Rotasi smooth mengikuti arah WASD
+✅ Auto-attack enemies
+✅ Full custom appearance!
+
+
+═══════════════════════════════════════════════════════════════
+
+📖 FILE: CARA_ASSIGN_SPRITE_PEDANG.txt
+    Location: Assets/Scripts2D/
+
+═══════════════════════════════════════════════════════════════
+

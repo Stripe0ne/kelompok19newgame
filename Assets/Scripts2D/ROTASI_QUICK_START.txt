@@ -1,0 +1,71 @@
+╔════════════════════════════════════════════╗
+║   🔄 ROTASI PEDANG - QUICK START 🗡️       ║
+╚════════════════════════════════════════════╝
+
+
+✅ ROTASI UDAH OTOMATIS JALAN!
+════════════════════════════════════════════
+
+Kalau udah pakai ForceSetupPedang.cs:
+→ Rotasi OTOMATIS ngikutin WASD
+→ Ga perlu setting apa-apa!
+
+
+🎮 TEST SEKARANG:
+════════════════════════════════════════════
+
+1. Play ▶ game
+2. Gerak WASD (atas/bawah/kiri/kanan)
+3. Liat pedang ikut rotasi!
+
+DONE! ✅
+
+
+⚙️ MAU CUSTOMIZE?
+════════════════════════════════════════════
+
+Select Player → Inspector → 
+"Weapon Rotation Controller" component
+
+
+SETTINGS PENTING:
+────────────────────────────────────────────
+
+┌─────────────────────────────────────────┐
+│ Rotation Mode:    Follow Movement    ▼ │
+│                                         │
+│ Pilih:                                  │
+│ • Follow Movement (WASD) ← Default     │
+│ • Follow Mouse (cursor)                 │
+│ • Fixed (ga rotasi)                     │
+│ • Disabled                              │
+│                                         │
+│ Rotation Speed:   [20]                  │
+│ └─ 1-50 (makin tinggi = makin cepat)   │
+└─────────────────────────────────────────┘
+
+
+🚀 QUICK TIPS:
+════════════════════════════════════════════
+
+💡 Rotasi terlalu lambat?
+   → Naikin Rotation Speed jadi 30-40
+
+💡 Mau pakai mouse cursor?
+   → Ganti Mode: Follow Mouse
+
+💡 Ga mau rotasi?
+   → Ganti Mode: Disabled
+
+
+📖 TUTORIAL LENGKAP:
+════════════════════════════════════════════
+
+Buka file: CARA_ROTATE_PEDANG.txt
+Ada penjelasan super detail!
+
+
+════════════════════════════════════════════
+
+Selamat main! Pedangnya udah rotasi keren! ⚔️✨
+
